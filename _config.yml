@@ -2,6 +2,23 @@ baseurl: /starter
 permalink: pretty
 markdown: kramdown
 
+defaults:
+  -
+    scope:
+      path: "_posts"
+      type: "pages"
+    values:
+      layout: "blog"
+      category: "blog"
+  -
+    scope:
+      path: "_portfolio"
+      type: "pages"
+    values:
+      layout: "portfolio"
+      category: "portfolio"
+
+
 prose:
   rooturl: ''
   siteurl: 'http://prose.github.io/starter/'
@@ -41,7 +58,7 @@ prose:
               value: "pears"
             - name: "Mangos"
               value: "mangos"
-    _posts/portfolio:
+    _portfolio:
       - name: "categories"
         field:
           element: "hidden"
