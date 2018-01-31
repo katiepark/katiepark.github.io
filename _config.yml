@@ -41,6 +41,10 @@ prose:
             - name: "Mangos"
               value: "mangos"
     _posts/portfolio:
+      - name: "category"
+        field:
+          element: "hidden"
+          value: "portfolio"
       - name: "layout"
         field:
           element: "hidden"
@@ -55,6 +59,32 @@ prose:
           element: "text"
           label: "Permalink"
           value: ""
+      - name: "projecturl"
+        field:
+          element: "text"
+          label: "Project URL"
+          value: ""
+      - name: "organization"
+        field:
+          element: "text"
+          label: "Organization"
+          value: ""
+      - name: "image"
+        field:
+          element: "text"
+          label: "Add Image to Post"
+          placeholder: "Image path (relative to /media/portfolio/)"
+          alterable: true
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Add Tags"
+          placeholder: "Choose Tags"
+          options:
+            - name: "NPR"
+              value: "npr"
+            - name: "Washington Post"
+              value: "washington-post"
     _posts/static:
       - name: "layout"
         field:
