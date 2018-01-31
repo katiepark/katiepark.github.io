@@ -7,6 +7,7 @@ projecturl: >-
   https://www.npr.org/sections/codeswitch/2017/10/25/559015355/how-black-americans-see-discrimination
 organization: NPR
 image: npr-discrim.png
+order: 10
 tags:
   - npr
 ---

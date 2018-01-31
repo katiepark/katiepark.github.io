@@ -7,6 +7,7 @@ projecturl: >-
   https://www.npr.org/2016/04/18/474256366/why-americas-schools-have-a-money-problem
 organization: NPR
 image: npr-schoolmoney.png
+order: 7
 tags:
   - npr
 ---

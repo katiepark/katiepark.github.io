@@ -6,6 +6,7 @@ title: Refugees In Their Own Country
 projecturl: 'http://apps.npr.org/idp-georgia/irakli.html'
 organization: NPR
 image: npr-idps.png
+order: 8
 tags:
   - npr
 ---

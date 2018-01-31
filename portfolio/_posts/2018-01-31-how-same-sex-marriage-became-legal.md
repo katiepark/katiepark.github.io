@@ -9,5 +9,6 @@ organization: The Washington Post
 image: wp-gaymarriage.png
 tags:
   - washington-post
+order: 1
 ---
 I reported, designed and developed this graphic looking at the speed at which states legalized same-sex marriage.

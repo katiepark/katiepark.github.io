@@ -6,6 +6,7 @@ title: Live annotated speech transcripts
 projecturl: 'https://www.npr.org/2016/09/26/495115346/fact-check-first-presidential-debate'
 organization: NPR
 image: npr-anno.png
+order: 5
 tags:
   - npr
 ---

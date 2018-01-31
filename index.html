@@ -4,9 +4,8 @@ section: portfolio
 ---
 
 <div class='listing col10 pad4h margin1'>
-    {% assign portfolio_sorted = site.categories.portfolio %}
-    {% for item in portfolio_sorted %}
-
+    {% assign portfolio_sorted = site.categories.portfolio | sort: 'order' %}
+    {% for item in portfolio_sorted reversed %}
     <div class="portfolio-item col12 clearfix">
         <a href="{{ item.projecturl }}">
             <img class="portfolio-img" src="media/portfolio/{{ item.image }}" alt="Screenshot of {{ item.title }}" />

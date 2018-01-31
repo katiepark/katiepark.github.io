@@ -7,6 +7,7 @@ projecturl: >-
   https://www.npr.org/2016/11/15/502032052/lots-of-people-voted-for-obama-and-trump-heres-where-in-3-charts
 organization: NPR
 image: npr-elex.png
+order: 6
 tags:
   - npr
 ---
