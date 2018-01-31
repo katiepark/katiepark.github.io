@@ -4,21 +4,19 @@ section: portfolio
 ---
 
 <div class='listing col10 pad4h margin1'>
-    {% assign portfolio_sorted = site.categories.portfolio | sort: 'order' %}
+    {% assign portfolio_sorted = site.categories.portfolio %}
     {% for item in portfolio_sorted %}
 
-    <div class="portfolio-item col12">
+    <div class="portfolio-item col12 clearfix">
         <a href="{{ item.projecturl }}">
-            <img class="col4" src="media/portfolio/{{ item.image }}" alt="Screenshot of {{ item.title }}" />
+            <img class="portfolio-img" src="media/portfolio/{{ item.image }}" alt="Screenshot of {{ item.title }}" />
         </a>
-        <div class="col8">
+        <div class="portfolio-info">
             <a href="{{ item.projecturl }}">
                 <h3>{{ item.title }}</h3>
             </a>
-            <p>{{ item.content }}</p>
+            {{ item.content }}
         </div>
     </div>
   {% endfor %}
 </div>
-
-{% include rss-link.html %}

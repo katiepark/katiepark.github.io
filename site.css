@@ -494,3 +494,44 @@ Details: http://www.positioniseverything.net/easyclearing.html
     }
   }
 
+/*
+ * SITE STYLES
+ */
+body {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+/*
+ * PORTFOLIO STYLES
+ */
+.portfolio-item {
+    margin-bottom: 4em;
+}
+
+.portfolio-img {
+    border: 1px solid #eaeaea;
+}
+
+@media only screen and (min-width:641px) {
+    .portfolio-img {
+        width: 49%;
+        float: left;
+        border: 1px solid #eee;
+    }
+
+    .portfolio-info {
+        width: 49%;
+        padding-left: 2%;
+        float: left;
+    }
+}
+
+@media only screen and (max-width:640px) {
+    .portfolio-img {
+        margin-bottom: 1em;
+    }
+}
