@@ -1,8 +1,9 @@
 baseurl: /starter
 permalink: pretty
 markdown: kramdown
+
 prose:
-  rooturl: '_posts'
+  rooturl: ''
   siteurl: 'http://prose.github.io/starter/'
   relativeLinks: 'http://prose.github.io/starter/links.jsonp'
   media: 'media'
@@ -41,7 +42,7 @@ prose:
             - name: "Mangos"
               value: "mangos"
     _posts/portfolio:
-      - name: "category"
+      - name: "categories"
         field:
           element: "hidden"
           value: "portfolio"

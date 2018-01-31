@@ -1,10 +1,11 @@
 ---
 layout: portfolio
-section: blog
+section: portfolio
 ---
 
 <div class='listing col6 pad4h margin3'>
-  {% for item in site.categories.blog limit:1000 %}
+    {{ site.categories.portfolio }}
+  {% for item in site.categories.portfolio limit:1000 %}
     {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
     {% capture ndate %}{{ item.next.date | date: '%B %Y' }}{% endcapture %}
 

@@ -1,6 +1,6 @@
 ---
 layout: page
-category: portfolio
+categories: portfolio
 published: false
 title: A second piece in my portfolio
 projecturl: 'https://washingtonpost.com'
