@@ -5,14 +5,14 @@ markdown: kramdown
 defaults:
   -
     scope:
-      path: "_posts"
+      path: "blog/_posts"
       type: "pages"
     values:
       layout: "blog"
       category: "blog"
   -
     scope:
-      path: "_portfolio"
+      path: "portfolio/_posts"
       type: "pages"
     values:
       layout: "portfolio"
@@ -104,6 +104,10 @@ prose:
               value: "npr"
             - name: "Washington Post"
               value: "washington-post"
+      - name: "published"
+        field:
+            element: "checkbox"
+            label: "Published"
     blog/_posts/static:
       - name: "layout"
         field:
