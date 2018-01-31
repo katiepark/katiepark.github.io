@@ -3,16 +3,20 @@ layout: portfolio
 section: portfolio
 ---
 
-<div class='listing col6 pad4h margin3'>
-{{ site.categories }}
+<div class='listing col10 pad4h margin1'>
   {% for item in site.categories.portfolio limit:1000 %}
-    {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
-    {% capture ndate %}{{ item.next.date | date: '%B %Y' }}{% endcapture %}
 
-    {% if date != ndate %}
-      <h4 class='month'>{{item.date | date: '%B %Y'}}</h4>
-    {% endif %}
-    <a class='item' href='{{site.baseurl}}{{item.url}}'>{{item.title}} <span class='date'>&#126; {{item.date | date:"%b %d"}}</span></a>
+    <div class="portfolio-item col12">
+        <a href="{{ item.projecturl }}">
+            <img class="col4" src="media/portfolio/{{ item.image }}" alt="Screenshot of {{ item.title }}" />
+        </a>
+        <div class="col8">
+            <a href="{{ item.projecturl }}">
+                <h3>{{ item.title }}</h3>
+            </a>
+            <p>{{ item.content }}</p>
+        </div>
+    </div>
   {% endfor %}
 </div>
 
