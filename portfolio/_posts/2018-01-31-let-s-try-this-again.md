@@ -1,6 +1,6 @@
 ---
 layout: page
-categories: portfolio
+category: portfolio
 published: false
 title: Let's try this again
 projecturl: npr.org
