@@ -1,0 +1,27 @@
+---
+title: 'Portfolio'
+---
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Katie Park {% if page.url != '/index.html' %}| {{page.title}}{% endif %}</title>
+  <meta charset='UTF-8'/>
+  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+  <link rel='alternate' type='application/rss+xml' title='RSS' href='SITEURLGOESHERE/blog.rss' />
+  <link rel='shortcut icon' href='{{site.baseurl}}/img/favicon.ico' type='image/x-icon' />
+  <link href='{{site.baseurl}}/site.css' rel='stylesheet' />
+</head>
+<body>
+  <div class='container'>
+    <div class='col12 clearfix'>
+      <div class='header col6 margin3 pad4h'>
+        <div class='clearfix col12'>
+            <h1>Katie Park</h1>
+            <p>I'm a visual journalist, developer and designer based in Washington, D.C. Currently, I'm the deputy graphics editor on the NPR Visuals team.</p>
+        </div>
+      </div>
+    </div>
+    {{content}}
+  </div>
+  <script src='{{site.baseurl}}/site.js'></script>
+</body>
