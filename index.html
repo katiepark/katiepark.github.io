@@ -4,7 +4,8 @@ section: portfolio
 ---
 
 <div class='listing col10 pad4h margin1'>
-  {% for item in site.categories.portfolio limit:1000 %}
+    {% assign portfolio_sorted = site.categories.portfolio | sort: 'order' %}
+    {% for item in portfolio_sorted %}
 
     <div class="portfolio-item col12">
         <a href="{{ item.projecturl }}">

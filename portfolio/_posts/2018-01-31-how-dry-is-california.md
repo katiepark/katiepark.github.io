@@ -6,6 +6,7 @@ title: How dry is California?
 projecturl: 'https://www.washingtonpost.com/graphics/national/drought-in-southwest/'
 organization: The Washington Post
 image: wp-california.png
+order: 2
 tags:
   - washington-post
 ---
