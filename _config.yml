@@ -58,7 +58,7 @@ prose:
               value: "pears"
             - name: "Mangos"
               value: "mangos"
-    portfolio/posts:
+    portfolio/_posts:
       - name: "categories"
         field:
           element: "hidden"
