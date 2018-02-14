@@ -11,4 +11,4 @@ order: 10
 tags:
   - npr
 ---
-This was a totally new chart form for us – a draggable bar chart asking users to quantify how prevalent they think discrimination is for black Americans.
+This was a totally new chart form for us – a draggable bar chart asking users to quantify how prevalent they think discrimination is for black Americans. We wanted to present a simple data point in an engaging way while encouraging users to quantify their own expectation of the data.
