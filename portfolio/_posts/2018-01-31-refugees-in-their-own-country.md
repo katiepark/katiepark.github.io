@@ -10,4 +10,4 @@ order: 8
 tags:
   - npr
 ---
-This is the rare project where Visuals worked closely with the reporter of this story to shape the narrative and form of the story. In addition to that, I worked on the design, development and graphics.
+We were lucky for Visuals to be involved early enough in this project that we were able to help shape the format of the narrative. We wanted to provide users with a base level of knowledge about the conflict in Georgia before immersing them in each individual's experience.
