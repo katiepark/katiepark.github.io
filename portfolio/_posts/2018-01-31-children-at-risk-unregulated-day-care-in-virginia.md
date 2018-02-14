@@ -3,8 +3,7 @@ layout: page
 categories: portfolio
 published: true
 title: 'Children at risk: Unregulated day care in Virginia'
-projecturl: >-
-  http://www.washingtonpost.com/wp-srv/special/investigations/va-daycare-deaths/cases/
+projecturl: 'http://www.washingtonpost.com/wp-srv/special/investigations/va-daycare-deaths/cases/'
 organization: The Washington Post
 image: wp-daycares.png
 order: 3

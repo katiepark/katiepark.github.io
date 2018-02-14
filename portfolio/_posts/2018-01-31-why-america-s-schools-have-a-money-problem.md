@@ -3,8 +3,7 @@ layout: page
 categories: portfolio
 published: true
 title: Why America's Schools Have A Money Problem
-projecturl: >-
-  https://www.npr.org/2016/04/18/474256366/why-americas-schools-have-a-money-problem
+projecturl: 'https://www.npr.org/2016/04/18/474256366/why-americas-schools-have-a-money-problem'
 organization: NPR
 image: npr-schoolmoney.png
 order: 7
