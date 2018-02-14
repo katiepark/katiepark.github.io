@@ -11,4 +11,4 @@ order: 9
 tags:
   - npr
 ---
-Using FEMA flood zone data and an early estimate of flooding after Tropical Storm Harvey, I built these maps in QGIS.
+I built these maps in QGIS using FEMA flood zone data and an early estimate of flooding after Tropical Storm Harvey. This map involved working with both vector and raster imagery on a one-day turnaround.
